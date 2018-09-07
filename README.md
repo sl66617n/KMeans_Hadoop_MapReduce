@@ -2,10 +2,10 @@
 
 This project uses Amazon Web Service (AWS) in order to do a cloud based Map Reduce task. The MapReduce program that is being used is Hadoop.
 
-There are three parts in this project:
+There are three parts:
 
   - What is MapReduce and what it does?
-  - Java code and upload to the cluster.
+  - Java code
   - Executing/loading task on to the cloud infrastructure (AWS) 
 
 ---
