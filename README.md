@@ -8,7 +8,7 @@ There are three parts:
  
      -  Java code
  
-   - Executing/loading task on to the cloud infrastructure (AWS) 
+     - Executing/loading task on to the cloud infrastructure (AWS) 
 
 ---
 
