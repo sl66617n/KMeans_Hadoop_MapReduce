@@ -57,6 +57,39 @@ Check out src/main/java/mapReduce3 for complete code snippet.
 Some sample code are shown as following:
 
 * KMeansDriver.java
+```java
+        // iterative step to the optimize solution
+        do {
+        	// print every time it iterates
+            System.out.println("MRJob-----------------------------" + times);
+            
+            // delete the temporary/previous clustering results
+            fs.delete(new Path(clusterPath), true);
+
+            // reference
+            job = new Job(conf);
+
+            // Hadoop Step
+            // Java to Jar
+            job.setJarByClass(KMeansDriver.class);
+            // Map input file format
+            job.setInputFormatClass(SequenceFileInputFormat.class);
+            // state the class of the map
+            job.setMapperClass(KMeansMapper.class);
+            // output of the map, equivalent to string
+            job.setMapOutputKeyClass(Text.class);
+            // ID = date, Distance = distance between points to center point
+            job.setMapOutputValueClass(IdAndDistance.class);
+            // state the class of reduce
+            job.setReducerClass(KMeansReducer.class);
+            // output key 
+            job.setOutputKeyClass(Text.class);
+            // output value
+            job.setOutputValueClass(Text.class);
+            // output format class (sequence)
+            job.setOutputFormatClass(SequenceFileOutputFormat.class);            
+...
+```
 * KMeansMapper.java
 
 ```java
