@@ -196,9 +196,10 @@ I used [Complete Cryptocurrency Market History Dataset](https://www.kaggle.com/t
 and reduce the dimension to High/Open, Low/Open, Close/Open from regular OHLC.
 
 
-Below is an sample clustering for S&P 500:
+Below is an sample clustering visualization for S&P 500:
 ![image](https://user-images.githubusercontent.com/30872011/45195367-2f2fdc80-b225-11e8-8f24-f210b28fb4d1.png)
 
+I will update the cryptocurrency plot in the future.
 
 ---
 
