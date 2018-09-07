@@ -185,11 +185,15 @@ Some sample code snippet are shown as following:
 ![image](https://user-images.githubusercontent.com/30872011/45193126-83818f00-b21a-11e8-93fd-c00112c2fb51.png)
  - [x] Shutdown/Terminate on AWS, Delete files uploaded
 
+
+
 For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
 
 (For small dataset that can be included in .csv, simply use vlookup function in excel for manipulation.)
 
-Reference: A helpful tutorial for [AWS Deployment](https://www.youtube.com/watch?v=JDk-LYJMzEU)
+
+
+Reference: A helpful tutorial for [AWS Deployment.](https://www.youtube.com/watch?v=JDk-LYJMzEU)
 
 ---
 
