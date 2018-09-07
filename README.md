@@ -1,4 +1,4 @@
-## K-Means Clustering in Java using Hadoop MapReduce on cryptocurrency market history
+## K-Means Clustering in Java using Hadoop MapReduce on Cryptocurrency Market History
 
 This project uses Amazon Web Service (AWS) in order to do a cloud based Map Reduce K-Means Clustering. The MapReduce program that is being used is Hadoop.
 
