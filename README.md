@@ -59,8 +59,7 @@ Check out src/main/java/mapReduce3
 ![image](https://user-images.githubusercontent.com/30872011/45192882-1b7e7900-b219-11e8-8783-f57d6b71528c.png)
 
  - [x] EC2 - Create Key Pairs named MapReduce-sijia
- <img width="781" alt="keypair" src="https://user-images.githubusercontent.com/30872011/45192788-811e3580-b218-11e8-8823-4236492eb419.png">
- 
+![image](https://user-images.githubusercontent.com/30872011/45193022-12da7280-b21a-11e8-8854-e54995801268.png)
  
  
  - [x] S3 - Create a bucket, and upload dataset.txt and kmeans.jar in the bucket you've created.
