@@ -189,6 +189,7 @@ For visualization, export the output.txt, manipulate data, plot with any tools y
 
 (For small dataset that can be included in .csv, simply use vlookup function in excel for manipulation.)
 
+Reference: A helpful tutorial for [AWS Deployment](https://www.youtube.com/watch?v=JDk-LYJMzEU)
 
 ---
 
