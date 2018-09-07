@@ -55,7 +55,8 @@ Check out **src/main/java/mapReduce3** for complete scripts.
 * KMeansReducer.java
 * IdAndDistance.java
 * DoubleArray.java
-*(I commented on every line of code for all.)*
+
+*(I commented on every line of code for all. :grimacing: )*
 
 Some sample code snippet are shown as following:
 
