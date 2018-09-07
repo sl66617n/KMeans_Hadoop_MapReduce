@@ -66,8 +66,7 @@ Check out src/main/java/mapReduce3
 ![image](https://user-images.githubusercontent.com/30872011/45193001-efafc300-b219-11e8-9f54-4a2634c59931.png)
  
  - [x] EMR - Create Cluster, Add Step, choose the kmeans.jar, add the arguments.
- ![image](https://user-images.githubusercontent.com/30872011/45193083-57fea480-b21a-11e8-8643-0599b653eb89.png)
-
+![image](https://user-images.githubusercontent.com/30872011/45193126-83818f00-b21a-11e8-93fd-c00112c2fb51.png)
  - [x] Shutdown/Terminate on AWS, Delete files uploaded
 
 For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
