@@ -2,7 +2,7 @@
 
 This project uses Amazon Web Service (AWS) in order to do a cloud based Map Reduce K-Means Clustering. The MapReduce program that is being used is Hadoop.
 
-There are three parts:
+There are three parts in this README markdown:
 
    1.  What is MapReduce and what it does?
    2.  Java code
