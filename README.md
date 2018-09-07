@@ -59,6 +59,7 @@ Check out src/main/java/mapReduce3
 AWS
 
  - [x] EC2 - Create Key Pairs named MapReduce-sijia
+ 
  - [x] S3 - Upload dataset.txt and kmeans.jar
  - [x] EMR - Create Cluster, Add Step, choose the kmeans.jar, add the arguments
  - [x] Shutdown/Terminate on AWS, Delete files uploaded
