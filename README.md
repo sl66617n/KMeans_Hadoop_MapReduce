@@ -48,7 +48,7 @@ Check out src/main/java/mapReduce3
 * KMeansDriver.java
 * KMeansMapper.java
 
-```
+```java
 	public void map(Text key,DoubleArray value,Context context) throws IOException,InterruptedException {
 		// minDistance = distance between each point and center point
         double minDistance = Double.MAX_VALUE; // initialize a max value
