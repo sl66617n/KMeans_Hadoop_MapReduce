@@ -1,6 +1,6 @@
 ## K-Means Clustering in Java using Hadoop MapReduce
 
-This project uses Amazon Web Service (AWS) in order to do a cloud based Map Reduce task. The MapReduce program that is being used is Hadoop.
+This project uses Amazon Web Service (AWS) in order to do a cloud based Map Reduce K-Means Clustering. The MapReduce program that is being used is Hadoop.
 
 There are three parts:
 
@@ -8,7 +8,7 @@ There are three parts:
  
  - [x] Java code
  
- - [x] Executing/loading task on to the cloud infrastructure (AWS) 
+     - Executing/loading task on to the cloud infrastructure (AWS) 
 
 ---
 
@@ -60,10 +60,10 @@ Check out src/main/java/mapReduce3
 
 AWS
 
-1. EC2 - Create Key Pairs named MapReduce-sijia
-2. S3 - Upload dataset.txt and kmeans.jar
-3. EMR - Create Cluster, Add Step, choose the kmeans.jar, add the arguments
-4. Shutdown/Terminate on AWS, Delete files uploaded
+ - [x] EC2 - Create Key Pairs named MapReduce-sijia
+ - [x] S3 - Upload dataset.txt and kmeans.jar
+ - [x] EMR - Create Cluster, Add Step, choose the kmeans.jar, add the arguments
+ - [x] Shutdown/Terminate on AWS, Delete files uploaded
 
 For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
 
