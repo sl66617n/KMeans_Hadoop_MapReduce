@@ -47,6 +47,27 @@ Check out src/main/java/mapReduce3
 
 * KMeansDriver.java
 * KMeansMapper.java
+
+```
+	public void map(Text key,DoubleArray value,Context context) throws IOException,InterruptedException {
+		// minDistance = distance between each point and center point
+        double minDistance = Double.MAX_VALUE; // initialize a max value
+        // nearest center point
+        int nearestCenter = 0;
+        // compute which one of the 5 center points is the nearest
+        for (int i = 0; i < centers.length; i++) {
+        	// if distance between point to center point is less the the minimal distance
+            if (value.distanceTo(centers[i]) < minDistance) {
+                nearestCenter = i;
+                // set to the point and calculate the minimal distance
+                minDistance = value.distanceTo(centers[i]);
+            }
+        }
+        // output distance and nearest center point
+        context.write(new Text(String.valueOf(nearestCenter)), new IdAndDistance(key.toString(),minDistance));
+    }
+}
+```
 * KMeansReducer.java
 * IdAndDistance.java
 * DoubleArray.java
