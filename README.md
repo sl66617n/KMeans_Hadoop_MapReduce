@@ -64,7 +64,7 @@ Check out src/main/java/mapReduce3
  
  
  - [x] S3 - Create a bucket, and upload dataset.txt and kmeans.jar in the bucket you've created.
- ![image](https://user-images.githubusercontent.com/30872011/45192941-80d26a00-b219-11e8-80fa-520e583a4810.png)
+![image](https://user-images.githubusercontent.com/30872011/45193001-efafc300-b219-11e8-9f54-4a2634c59931.png)
  
  - [x] EMR - Create Cluster, Add Step, choose the kmeans.jar, add the arguments
  - [x] Shutdown/Terminate on AWS, Delete files uploaded
