@@ -78,6 +78,27 @@ Some sample code are shown as following:
 }
 ```
 * KMeansReducer.java
+```java
+        while (ite.hasNext()) {
+        	// temporary value of id and distance 
+        	// clone value of iterative value
+            IdAndDistance temp = WritableUtils.clone(ite.next(), context.getConfiguration());
+            
+            // if length cluster is greater than 0, add a comma
+            if (cluster.length() > 0) cluster = cluster + ",";
+            // get id = date
+            cluster = cluster + temp.getId();
+            // add up
+            sumOfDistance = sumOfDistance + temp.getDistance();
+        }
+        
+        // add the sumofDistance to cluster
+        cluster = cluster + "," + String.valueOf(sumOfDistance);
+        // output
+        context.write(key, new Text(cluster));
+    }
+}
+```
 * IdAndDistance.java
 * DoubleArray.java
 ```java
