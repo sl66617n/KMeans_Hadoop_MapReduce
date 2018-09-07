@@ -56,9 +56,7 @@ Check out src/main/java/mapReduce3
 
 ### Deployment
 
-
-![image](https://user-images.githubusercontent.com/30872011/45192841-c9d5ee80-b218-11e8-9fe5-ba8d2b3f09bd.png)
-
+![image](https://user-images.githubusercontent.com/30872011/45192882-1b7e7900-b219-11e8-8783-f57d6b71528c.png)
 
  - [x] EC2 - Create Key Pairs named MapReduce-sijia
  <img width="781" alt="keypair" src="https://user-images.githubusercontent.com/30872011/45192788-811e3580-b218-11e8-8823-4236492eb419.png">
