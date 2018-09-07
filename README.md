@@ -12,7 +12,7 @@ There are three parts in this project:
 
 
 
-#**History of MapReduce**
+**History of MapReduce**
 
 History of MapReduce originated in the development of web search engines primarily in Google’s research and development labs. It became clear early on in the development of search engines that there was gonna need to be new infrastructure built in order to handle enormous amounts of  memory what became to known as big data. And this is so much data that it doesn’t fit within memory at one time and at one computer. Hence MapReduce is about handling enormous amounts of data and doing processing tasks on that data. MapReduce is a data flow architecture, it has a particular way in which that it manipulates data. Many problems can be solved if it can be fit into the style of MapReduce jobs.
 
