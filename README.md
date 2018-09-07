@@ -59,7 +59,7 @@ Some sample code are shown as following:
 
 ```java
 	public void map(Text key,DoubleArray value,Context context) throws IOException,InterruptedException {
-		// minDistance = distance between each point and center point
+	// minDistance = distance between each point and center point
         double minDistance = Double.MAX_VALUE; // initialize a max value
         // nearest center point
         int nearestCenter = 0;
@@ -80,6 +80,17 @@ Some sample code are shown as following:
 * KMeansReducer.java
 * IdAndDistance.java
 * DoubleArray.java
+```java
+	// compute distance between one double array to another 
+	public double distanceTo(DoubleArray point) {
+		double[] data1 = point.get();
+		double distance = 0;
+		for (int i = 0; i < data.length; i++) {
+			distance = distance + Math.pow(data[i] - data1[i], 2);
+		}
+		return distance;
+	}
+```
 
 
 ---
