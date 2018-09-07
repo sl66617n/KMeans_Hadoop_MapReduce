@@ -72,9 +72,9 @@ For visualization, export the output.txt, manipulate data, plot with any tools y
 
 **DataSet**
 
-I used complete cryptocurrency market history dataset from kaggle.
+I used complete [cryptocurrency market history dataset](https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap) from kaggle.
 
-https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap
+
 
 and reduce the dimension to High/Open, Low/Open, Close/Open from regular OHLC.
 
