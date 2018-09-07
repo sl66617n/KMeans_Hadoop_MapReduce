@@ -100,6 +100,21 @@ Some sample code are shown as following:
 }
 ```
 * IdAndDistance.java
+```java
+	// read ( for inheritance)
+	public void readFields(DataInput in) throws IOException {
+		// UTF-8
+		id=in.readUTF();
+		distance=in.readDouble();
+	}
+
+	// write ( for inheritance)
+	public void write(DataOutput out) throws IOException {
+		out.writeUTF(id);
+		out.writeDouble(distance);
+	}
+}
+```
 * DoubleArray.java
 ```java
 	// compute distance between one double array to another 
