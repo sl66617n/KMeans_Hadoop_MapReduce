@@ -72,7 +72,7 @@ For visualization, export the output.txt, manipulate data, plot with any tools y
 
 **DataSet**
 
-I used [complete cryptocurrency market history dataset](https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap):link: from kaggle.
+I used [Complete Cryptocurrency Market History Dataset](https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap):link: from Kaggle.
 
 
 
