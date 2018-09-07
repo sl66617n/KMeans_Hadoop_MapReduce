@@ -193,8 +193,12 @@ For visualization, export the output.txt, manipulate data, plot with any tools y
 I used [Complete Cryptocurrency Market History Dataset](https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap):link: from Kaggle.
 
 
-
 and reduce the dimension to High/Open, Low/Open, Close/Open from regular OHLC.
+
+
+Below is an sample clustering for S&P 500.
+![image](https://user-images.githubusercontent.com/30872011/45195367-2f2fdc80-b225-11e8-8f24-f210b28fb4d1.png)
+
 
 ---
 
