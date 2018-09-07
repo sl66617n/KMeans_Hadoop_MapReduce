@@ -180,7 +180,7 @@ Some sample code snippet are shown as following:
  - [x] **S3** - Create a bucket, and upload dataset.txt and kmeans.jar in the bucket you've created.
 ![image](https://user-images.githubusercontent.com/30872011/45193001-efafc300-b219-11e8-9f54-4a2634c59931.png)
  
- - [x] **EMR** - Create Cluster, Add Step, choose the kmeans.jar, add the arguments.
+ - [x] **EMR** - Create Cluster, Add Step, choose the kmeans.jar, pass in the arguments.
 ![image](https://user-images.githubusercontent.com/30872011/45193126-83818f00-b21a-11e8-93fd-c00112c2fb51.png)
  - [x] Shutdown/Terminate on AWS, Delete files uploaded
 
