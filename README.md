@@ -187,12 +187,6 @@ Some sample code snippet are shown as following:
 
 
 
-For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
-
-(For small dataset that can be included in .csv, simply use vlookup function in excel for manipulation.)
-
-
-
 Reference: A helpful tutorial for [AWS Deployment.](https://www.youtube.com/watch?v=JDk-LYJMzEU)
 
 ---
@@ -203,6 +197,12 @@ I used [Complete Cryptocurrency Market History Dataset](https://www.kaggle.com/t
 
 
 and reduce the dimension to High/Open, Low/Open, Close/Open from regular OHLC.
+
+
+For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
+
+(For small dataset that can be included in .csv, simply use vlookup function in excel for manipulation.)
+
 
 
 Below is an sample clustering visualization for S&P 500:
