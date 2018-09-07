@@ -45,7 +45,7 @@ These are all Hadoop version of integer, double and long numeric types. Text is 
 
 ### Java Code
 
-Check out src/main/java/mapReduce3 for complete code snippet.
+Check out src/main/java/mapReduce3 for complete scripts.
 
 * KMeansDriver.java
 * KMeansMapper.java
@@ -54,7 +54,7 @@ Check out src/main/java/mapReduce3 for complete code snippet.
 * DoubleArray.java
 
 
-Some sample code are shown as following:
+Some sample code snippet are shown as following:
 
 * KMeansDriver.java
 ```java
