@@ -56,7 +56,7 @@ Check out **src/main/java/mapReduce3** for complete scripts.
 * IdAndDistance.java
 * DoubleArray.java
 
-*(I commented on every line of code for all. )*:simple_smile:
+*(I commented on every line of code for all. )* :simple_smile:
 
 Some sample code snippet are shown as following:
 
