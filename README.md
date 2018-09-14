@@ -192,10 +192,7 @@ Reference: A helpful tutorial for [AWS Deployment.](https://www.youtube.com/watc
 
 ### DataSet
 
-I used [Complete Cryptocurrency Market History Dataset](https://www.kaggle.com/taniaj/cryptocurrency-market-history-coinmarketcap):link: from Kaggle.
-
-
-and reduce the dimension to High/Open, Low/Open, Close/Open from regular OHLC.
+I reduced the dimensions to High/Open, Low/Open, Close/Open from regular OHLC.
 
 
 For visualization, export the output.txt, manipulate data, plot with any tools you preferred.
