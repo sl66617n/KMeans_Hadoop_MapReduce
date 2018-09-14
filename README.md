@@ -207,7 +207,6 @@ For visualization, export the output.txt, manipulate data, plot with any tools y
 Below is an sample clustering visualization for S&P 500:
 ![image](https://user-images.githubusercontent.com/30872011/45195367-2f2fdc80-b225-11e8-8f24-f210b28fb4d1.png)
 
-I will update the cryptocurrency plot and analysis soon.
 
 ---
 
